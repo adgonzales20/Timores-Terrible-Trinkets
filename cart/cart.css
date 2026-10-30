@@ -1,16 +1,29 @@
 body{
     margin: 0px;
+    background-color: rgb(154,81,72);
+
+    h3{
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    p{
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }
 main{
     margin-left: 20px;
     margin-right: 20px;
 }
+
 h1{
     text-align: center
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(50, 9, 3);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -28,7 +41,7 @@ h1{
     font-size: clamp(14px, 1.5vw, 40px);
 }
 .navbar a:hover{
-    background-color: rgb(128, 128, 128); 
+    background-color: rgb(85, 36, 28)
 }
 .navbar li{
     float:none;
