@@ -1,6 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
 body{
     margin: 0px;
-    background-color: rgb(154,81,72);
+    background-color: rgb(131, 60, 50);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
     h3{
         color:white;
@@ -45,4 +52,16 @@ h1{
 }
 .navbar li{
     float:none;
+}
+
+
+.footer{
+    background-color: rgb(50, 9, 3);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
 }
