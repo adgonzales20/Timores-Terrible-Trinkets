@@ -15,10 +15,6 @@ body{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
-main{
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 h1{
     text-align: center
@@ -49,6 +45,29 @@ h1{
 }
 .navbar li{
     float:none;
+}
+
+.page-content{
+background-color: darkgreen;
+display:flex;
+flex-direction:row;
+padding:20px
+}
+
+.portrait{
+background-color:brown;
+padding:10px;
+
+}
+
+.content{
+background-color:darkmagenta;
+padding:20px;
+
+.writing{
+background-color:black;
+}
+
 }
 
 .footer{
