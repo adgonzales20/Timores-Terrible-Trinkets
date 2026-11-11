@@ -4,7 +4,9 @@ html, body {
 }
 body{
     margin: 0px;
-    background-color: rgb(131, 60, 50);
+    background-image: url('../Timores-Terrible-Trinkets/images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 
     h3{
         color:white;
@@ -104,11 +106,12 @@ button{
 }
 
 
-.products{
-    background-color: rgba(63, 18, 18, 0.41);
-    display:flex; 
-    flex-wrap:wrap;
-    width100%;
+.products {
+    background-color: rgba(61, 26, 26, 0.781);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 600px;
 }
 .item{
   flex: 0 0 33.3333%; 
@@ -118,13 +121,19 @@ button{
   align-items: center;
   justify-content: center;
 }
+
+.item.hidden {
+    display: none;
+}
+
+
 .products a:hover{
-    background-color: rgba(37, 10, 10, 0.273);
+    background-color: rgba(117, 97, 97, 0.63);
 }
 
 
 .Legal-Notice{
-    color: rgb(97, 40, 33);
+    color: rgb(139, 125, 123);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: clamp(6px, 0.5vw, 10px);
     padding:10px;

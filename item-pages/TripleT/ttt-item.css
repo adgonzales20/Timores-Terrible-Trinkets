@@ -4,7 +4,9 @@ html, body {
 }
 body{
     margin: 0px;
-    background-color: rgb(131, 60, 50);
+    background-image: url('../../images/bg.png');
+    background-size: cover;
+    background-repeat: repeat;
 
     h3{
         color:white;
@@ -93,7 +95,7 @@ h1{
 
 .dead-space {
     font-size:50px;
-    color:rgb(131, 60, 50)
+    color:rgba(131, 60, 50, 0)
 
 }
 

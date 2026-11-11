@@ -6,6 +6,7 @@
   <title>Timores-Terrible-Trinkets</title>
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="style.css">
+  <script src="javascript.js" defer></script>
 </head>
 
 <body>
@@ -29,19 +30,30 @@
 <div class="main-content">
     <div class="filter">
         <div class="filtername">Search Filter</div>
-        <button class="filterbutton">All Items</button>
-        <button class="filterbutton">Magical Items</button>
-        <button class="filterbutton">Human Remains</button>
-        <button class="filterbutton">Spells</button>
-        <button class="filterbutton">Things I don't want anymore</button>
+        <button class="filterbutton" data-filter="all">All Items</button>
+        <button class="filterbutton" data-filter="magic">Magical Items</button>
+        <button class="filterbutton" data-filter="bodyparts">Human Remains</button>
+        <button class="filterbutton" data-filter="spells">Spells</button>
+        <button class="filterbutton" data-filter="unwanted">Things I don't want anymore</button>
     </div>
     <div class="products">
-            <div class="item"><a href="item-pages/Chalice/cup-item.html"> <img src="../Timores-Terrible-Trinkets/images/chalice.png" alt="Consumed Chalice" width="250"></a></div>
-            <div class="item"><a href="item-pages/LovePotion/love-item.html"> <img src="../Timores-Terrible-Trinkets/images/love.png" alt="Love Potion" width="250"></div>
-            <div class="item"><a href="item-pages/TripleT/ttt-item.html"> <img src="../Timores-Terrible-Trinkets/images/tung.png" alt="Greedant's Chamber" width="250"></a></div>
-            <div class="item"><a href="item-pages/Eyeball/eye-item.html"><img src="../Timores-Terrible-Trinkets/images/eye.png" alt="Eye of Meigh Neigh-bore" width="250"></a></div>
-            <div class="item"><a href="item-pages/Essense/magic-item.html"> <img src="../Timores-Terrible-Trinkets/images/essense.png" alt="Timore's Magical Essence" width="250"></a></div>
-            <div class="item"><a href="item-pages/Lamp/lamp-item.html"> <img src="../Timores-Terrible-Trinkets/images/lamp.png" alt="Stupid Lamp" width="250"></a></div>
+            <div class="item" data-category="magic spells"><a href="item-pages/Chalice/cup-item.html"> 
+                <img src="../Timores-Terrible-Trinkets/images/chalice.png" alt="Consumed Chalice" width="250"></a></div>
+
+            <div class="item" data-category="magic"><a href="item-pages/LovePotion/love-item.html">
+                <img src="../Timores-Terrible-Trinkets/images/love.png" alt="Love Potion" width="250"></div>
+
+            <div class="item" data-category="bodyparts"><a href="item-pages/TripleT/ttt-item.html"> 
+                <img src="../Timores-Terrible-Trinkets/images/tung.png" alt="Greedant's Chamber" width="250"></a></div>
+
+            <div class="item" data-category="bodyparts"><a href="item-pages/Eyeball/eye-item.html">
+                <img src="../Timores-Terrible-Trinkets/images/eye.png" alt="Eye of Meigh Neigh-bore" width="250"></a></div>
+
+            <div class="item" data-category="magic spells"><a href="item-pages/Essense/magic-item.html"> 
+                <img src="../Timores-Terrible-Trinkets/images/essense.png" alt="Timore's Magical Essence" width="250"></a></div>
+
+            <div class="item" data-category="unwanted"><a href="item-pages/Lamp/lamp-item.html">
+                <img src="../Timores-Terrible-Trinkets/images/lamp.png" alt="Stupid Lamp" width="250"></a></div>
     </div>
 </div>
 <div class="Legal-Notice">
