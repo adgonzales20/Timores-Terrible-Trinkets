@@ -6,6 +6,7 @@
   <title>Timores-Terrible-Trinkets</title>
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="cup-item.css">
+  <script src="cup-item.js" defer></script>
 </head>
 
 <body>
@@ -31,6 +32,8 @@
     <div class="item-pic">
             <img src="../../images/chalice.png" alt="An empty golden chalice. 
             There are some purplish specks around it." width="500">
+            <img src="../../images/SoldOut.png"
+             class="sold-out" alt="A red graphic that reads Sold Out" hidden width="500">
     </div>
 
 <div class="item-info">
@@ -40,6 +43,14 @@
 
     <div class="item-desc">
         <p>A chalice that once contained a powerful elixir. Some remnants can be found inside, potentially useful scraps for future potions.</p>
+    </div>
+
+    <div class="item-price">
+        <p>Price: $500.00</p>
+    </div>
+
+    <div class="Buy">
+        <button type="button" id="buy-button">Buy</button>
     </div>
 </div>
 

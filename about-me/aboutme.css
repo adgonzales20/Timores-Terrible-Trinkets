@@ -61,7 +61,7 @@ padding:10px;
 }
 
 .content{
-background-color:rgba(63, 18, 18, 0.41);
+background-color:rgba(63, 18, 18, 0.76);
 padding:50px;
 gap:20px;
 display:flex;
@@ -82,7 +82,7 @@ padding:20px;
 display:flex;
 flex-direction:row;
 gap:20px;
-background-color: rgba(63, 18, 18, 0.41);
+background-color: rgba(51, 13, 13, 0.815);
 }
 
 .Map{
