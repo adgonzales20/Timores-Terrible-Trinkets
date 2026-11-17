@@ -5,8 +5,8 @@ html, body {
 body{
     margin: 0px;
     background-image: url('../Timores-Terrible-Trinkets/images/bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size:cover;
+    background-repeat:round;
 
     h3{
         color:white;

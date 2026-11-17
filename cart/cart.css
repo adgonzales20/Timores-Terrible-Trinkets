@@ -5,8 +5,8 @@ html, body {
 body{
     margin: 0px;
     background-image: url('../images/bg.png');
-    background-size: cover;
-    background-repeat: repeat;
+    background-size:cover;
+    background-repeat:round;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
